@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coxinhas quero +</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="./assets/style.css">
+
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+            <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
+            <a href="#" class="w3-bar-item w3-button">Ínicio</a>
+            <a href="#" class="w3-bar-item w3-button">Produtos</a>
+            <a href="#" class="w3-bar-item w3-button">Fale Conosco</a>
+        </div>
+
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+        </div>
+        <script>
+            function openRightMenu() {
+                document.getElementById("rightMenu").style.display = "block";
+            }               
+
+            function closeRightMenu() {
+                document.getElementById("rightMenu").style.display = "none";
+            }
+            </script>
+        <header>
+            
+            <div class="container">
+                <div class="banner">
+                    
+                </div>
+
+            </div>
+
+            <div class="logo">
+                <img src="./assets/img/LogoPrimaria-Semfundo.png"></img>
+            </div>
+
+            <div class="logo1">
+                <img src="./assets/img/LogoPrimaria-Semfundo.png"></img>
+            </div>
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Procura algo ? Digite aqui..."/>
+                <button id="btnBusca">Buscar</button>
+            </div>
+
+            <div class="img">
+                <img src="./assets/img/Design_sem.png">
+
+            </div>
+            <div class="img1">
+                <img src="./assets/img/Design_sem.png">
+
+            </div>
+
+        </header>
+
+        <section>
+
+        </section>
+
+        <footer>
+
+
+        
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner{
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/02072f105386127.5f7b1d52e4900.gif);
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0%;
+    width: auto;
+}
+
+.logo{
+    width: 2000px;
+    height: 190px;
+    padding-left: 70px;
+    margin-top: -200px;
+    justify-content: top;
+    display: flex;
+}
+
+.logo1{
+    width: 180px;
+    height: 190px;
+    padding-left:1250px;
+    margin-top: -180px;
+    justify-content: top;
+    display: flex;
+}
+.w3-sidebar w3-bar-block w3-collapse{
+    justify-content: right;
+    display: flex;
+}
+
+#divBusca{
+    background-color:transparent;
+    border-radius:10px;
+    width:800px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 780px;
+    margin-top: -70px;
+  }
+
+.img{
+    width:200px;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    padding-left:600px;
+    margin-top: -129px;
+  }
+
+.img1{
+    width:200px;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    padding-left:1040px;
+    margin-top: -185px;
+  }
+#banner{
+    background-image: url('../assets/img/Design\ sem\ nome\ \(1\).png');
+        height: 800px;
+        width: 1600px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+
+.w3-teal{
+    display: flex;
+    background-color:transparent;
+    width: auto;
+
+}
+
